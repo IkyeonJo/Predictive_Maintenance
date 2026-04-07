@@ -1,0 +1,94 @@
+<svg width="100%" viewBox="0 0 680 392" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="392" fill="#ffffff"/>
+
+  <!-- Column backgrounds -->
+  <rect x="40" y="20" width="196" height="52" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <rect x="242" y="20" width="196" height="52" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+  <rect x="444" y="20" width="196" height="52" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+
+  <!-- Column headers -->
+  <text font-size="13" font-weight="500" fill="#0C447C" x="138" y="40" text-anchor="middle" dominant-baseline="central">모터 (Motor)</text>
+  <text font-size="11" fill="#185FA5" x="138" y="58" text-anchor="middle" dominant-baseline="central">전기적 신호 중심</text>
+  <text font-size="13" font-weight="500" fill="#085041" x="340" y="40" text-anchor="middle" dominant-baseline="central">공통 데이터 (Shared)</text>
+  <text font-size="11" fill="#0F6E56" x="340" y="58" text-anchor="middle" dominant-baseline="central">양쪽 동일 적용</text>
+  <text font-size="13" font-weight="500" fill="#4A1B0C" x="542" y="40" text-anchor="middle" dominant-baseline="central">펌프 (Pump)</text>
+  <text font-size="11" fill="#993C1D" x="542" y="58" text-anchor="middle" dominant-baseline="central">유체·수력학적 신호 중심</text>
+
+  <!-- Row borders -->
+  <line x1="40" y1="72" x2="236" y2="72" stroke="#D3D1C7" stroke-width="0.5"/>
+  <line x1="242" y1="72" x2="438" y2="72" stroke="#D3D1C7" stroke-width="0.5"/>
+  <line x1="444" y1="72" x2="640" y2="72" stroke="#D3D1C7" stroke-width="0.5"/>
+  <line x1="40" y1="130" x2="236" y2="130" stroke="#D3D1C7" stroke-width="0.5"/>
+  <line x1="242" y1="130" x2="438" y2="130" stroke="#D3D1C7" stroke-width="0.5"/>
+  <line x1="444" y1="130" x2="640" y2="130" stroke="#D3D1C7" stroke-width="0.5"/>
+  <line x1="40" y1="188" x2="236" y2="188" stroke="#D3D1C7" stroke-width="0.5"/>
+  <line x1="242" y1="188" x2="438" y2="188" stroke="#D3D1C7" stroke-width="0.5"/>
+  <line x1="444" y1="188" x2="640" y2="188" stroke="#D3D1C7" stroke-width="0.5"/>
+  <line x1="40" y1="246" x2="236" y2="246" stroke="#D3D1C7" stroke-width="0.5"/>
+  <line x1="242" y1="246" x2="438" y2="246" stroke="#D3D1C7" stroke-width="0.5"/>
+  <line x1="444" y1="246" x2="640" y2="246" stroke="#D3D1C7" stroke-width="0.5"/>
+  <line x1="40" y1="304" x2="236" y2="304" stroke="#D3D1C7" stroke-width="0.5"/>
+  <line x1="242" y1="304" x2="438" y2="304" stroke="#D3D1C7" stroke-width="0.5"/>
+  <line x1="444" y1="304" x2="640" y2="304" stroke="#D3D1C7" stroke-width="0.5"/>
+
+  <!-- Column outer borders -->
+  <rect x="40" y="72" width="196" height="290" rx="0" fill="none" stroke="#D3D1C7" stroke-width="0.5"/>
+  <rect x="242" y="72" width="196" height="290" rx="0" fill="none" stroke="#9FE1CB" stroke-width="0.5"/>
+  <rect x="444" y="72" width="196" height="290" rx="0" fill="none" stroke="#F5C4B3" stroke-width="0.5"/>
+
+  <!-- ROW 1 -->
+  <!-- Motor -->
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="52" y="90" dominant-baseline="central">전류 신호 (MCSA)</text>
+  <text font-size="11" fill="#5F5E5A" x="52" y="110" dominant-baseline="central">상전류 FFT → 회전자/고정자 결함</text>
+  <!-- Shared -->
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="254" y="90" dominant-baseline="central">진동 (Vibration)</text>
+  <text font-size="11" fill="#5F5E5A" x="254" y="110" dominant-baseline="central">베어링·불평형·정렬불량 감지</text>
+  <!-- Pump -->
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="456" y="90" dominant-baseline="central">압력 / 유량</text>
+  <text font-size="11" fill="#5F5E5A" x="456" y="110" dominant-baseline="central">차압·유량으로 성능 이탈 감지</text>
+
+  <!-- ROW 2 -->
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="52" y="148" dominant-baseline="central">슬립 주파수</text>
+  <text font-size="11" fill="#5F5E5A" x="52" y="168" dominant-baseline="central">유도전동기 부하·회전자 이상</text>
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="254" y="148" dominant-baseline="central">온도 (Temperature)</text>
+  <text font-size="11" fill="#5F5E5A" x="254" y="168" dominant-baseline="central">베어링·권선 온도 상승 감지</text>
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="456" y="148" dominant-baseline="central">캐비테이션 신호</text>
+  <text font-size="11" fill="#5F5E5A" x="456" y="168" dominant-baseline="central">광대역 노이즈 + 압력 맥동</text>
+
+  <!-- ROW 3 -->
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="52" y="206" dominant-baseline="central">절연 저항 / 부분방전</text>
+  <text font-size="11" fill="#5F5E5A" x="52" y="226" dominant-baseline="central">권선 열화·습기 침투 감지</text>
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="254" y="206" dominant-baseline="central">회전속도 (RPM)</text>
+  <text font-size="11" fill="#5F5E5A" x="254" y="226" dominant-baseline="central">특성 주파수 계산 기준값</text>
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="456" y="206" dominant-baseline="central">베인 통과 (VPF)</text>
+  <text font-size="11" fill="#5F5E5A" x="456" y="226" dominant-baseline="central">n_vane × RPM/60 임펠러 결함</text>
+
+  <!-- ROW 4 -->
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="52" y="264" dominant-baseline="central">전자기 소음 (공극 편심)</text>
+  <text font-size="11" fill="#5F5E5A" x="52" y="284" dominant-baseline="central">불균일 공극 → 특정 주파수 피크</text>
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="254" y="264" dominant-baseline="central">소음 (AE / SPL)</text>
+  <text font-size="11" fill="#5F5E5A" x="254" y="284" dominant-baseline="central">마찰·충격 음향방출 감지</text>
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="456" y="264" dominant-baseline="central">BEP 이탈 모니터링</text>
+  <text font-size="11" fill="#5F5E5A" x="456" y="284" dominant-baseline="central">최고효율점 이탈 진단</text>
+
+  <!-- ROW 5 -->
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="52" y="322" dominant-baseline="central">토크 리플</text>
+  <text font-size="11" fill="#5F5E5A" x="52" y="342" dominant-baseline="central">전력 품질·스위칭 노이즈</text>
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="254" y="322" dominant-baseline="central">윤활유 분석</text>
+  <text font-size="11" fill="#5F5E5A" x="254" y="342" dominant-baseline="central">금속 입자·오염도로 마모 확인</text>
+  <text font-size="12" font-weight="500" fill="#2C2C2A" x="456" y="322" dominant-baseline="central">NPSH / 흡입 조건</text>
+  <text font-size="11" fill="#5F5E5A" x="456" y="342" dominant-baseline="central">캐비테이션 발생 한계 수두</text>
+
+  <!-- Bottom rounded caps -->
+  <rect x="40" y="352" width="196" height="18" rx="0" fill="none" stroke="#D3D1C7" stroke-width="0.5"/>
+  <rect x="242" y="352" width="196" height="18" rx="0" fill="none" stroke="#9FE1CB" stroke-width="0.5"/>
+  <rect x="444" y="352" width="196" height="18" rx="0" fill="none" stroke="#F5C4B3" stroke-width="0.5"/>
+
+  <!-- Badge labels row 5 bottom -->
+  <rect x="52" y="356" width="52" height="12" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text font-size="9" fill="#0C447C" x="78" y="362" text-anchor="middle" dominant-baseline="central">모터 전용</text>
+  <rect x="254" y="356" width="40" height="12" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+  <text font-size="9" fill="#085041" x="274" y="362" text-anchor="middle" dominant-baseline="central">공통</text>
+  <rect x="456" y="356" width="52" height="12" rx="3" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+  <text font-size="9" fill="#4A1B0C" x="482" y="362" text-anchor="middle" dominant-baseline="central">펌프 전용</text>
+</svg>
